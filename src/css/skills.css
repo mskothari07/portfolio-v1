@@ -1,0 +1,43 @@
+.skills-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+.skills-content {
+  background-color: transparent;
+  cursor: pointer;
+  height: 40vh;
+  width: 11vw;
+  display: flex;
+  padding-right: 2vw;
+  border-top: 4px solid var(--yellow);
+  border-bottom: 4px solid var(--yellow);
+  align-items: stretch;
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+.skills-container :hover {
+  background-color: transparent;
+}
+
+.skills-content:hover {
+  transform: scale(1.1);
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+}
+.skills-heading h1 {
+  font-size: 8vw;
+  margin: 0px;
+}
+
+.skills-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 36%;
+}

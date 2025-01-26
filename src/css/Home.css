@@ -1,0 +1,396 @@
+.home_wrapper {
+  margin: 40px;
+  position: fixed;
+  inset: 0%;
+  overflow: hidden;
+}
+
+element.style {
+  width: 60%;
+  height: 40%;
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+:root {
+  --white: white;
+  --black: #141414;
+  --yellow: #f9e864;
+  --grey: #727272;
+  --blue: #3973a6;
+}
+
+::selection {
+  background: #f9e864;
+  color: black;
+}
+
+.container-work-hz::-webkit-scrollbar {
+  display: none;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+a {
+  color: var(--black);
+  font-family: input-mono, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.logo {
+  z-index: 1;
+  background-color: var(--yellow);
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 20%;
+  padding-bottom: 9px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transition: all 1s ease;
+}
+
+.home-title {
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: forma-djr-micro, sans-serif;
+  font-size: 5vh;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.home_topleft {
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  inset: 0 auto auto 0;
+}
+
+.home_bottomleft {
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0 0;
+}
+
+.home_bottomright {
+  z-index: 2;
+  background-color: var(--white);
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  inset: auto 0 0 auto;
+}
+
+.home_topright {
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+
+  inset: 0 0 auto auto;
+}
+
+.logo_home {
+  object-fit: contain;
+  position: relative;
+  width: 80%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.logo_home:hover {
+  content: url("/public/transparent.jpg");
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* marquee-css */
+.marquee-top span {
+  padding: 2%;
+  font-size: 20px;
+  font-family: forma-djr-micro, sans-serif;
+}
+
+.marquee-bottom span {
+  padding: 2%;
+  font-size: 20px;
+  font-family: forma-djr-micro, sans-serif;
+}
+
+/* margin : t r b l */
+.marquee-top {
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  padding: 4px;
+}
+
+.marquee-right {
+  border: 2px solid black;
+  top: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 40px;
+  margin-top: 40px;
+}
+
+.marquee-bottom {
+  border: 2px solid black;
+  bottom: 0;
+  left: 0;
+  width: (100% - 40px);
+  height: 40px;
+  position: fixed;
+  padding: 5px;
+  margin-right: 40px;
+}
+.marquee-left {
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 40px;
+  margin: 40px 0;
+  height: calc(100% - 80px);
+  /* Can be done using z-index as well */
+}
+
+.marquee-content-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marquee-left span {
+  color: black;
+  transform: rotate(90deg);
+  display: block;
+  white-space: nowrap;
+  margin: 20px 0;
+  padding: 2%;
+  font-size: 20px;
+  font-family: forma-djr-micro, sans-serif;
+}
+
+.marquee-content-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marquee-right span {
+  color: black;
+  transform: rotate(-90deg) translateX(-100%);
+  display: block;
+  white-space: nowrap;
+  margin: 20px 0;
+  padding: 2%;
+  font-size: 20px;
+  font-family: forma-djr-micro, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+  flex: 1 1 45%; /* Start with slightly smaller size for effect */
+  transition: flex 0.3s ease;
+}
+
+a {
+  color: var(--black);
+  font-family: input-mono, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+}
+
+a:hover {
+  background-color: var(--yellow);
+}
+
+.w-inline-block {
+  flex: 1 1 45%;
+  transition: flex 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TopLeft hover effect */
+.home_topleft:hover {
+  width: 70%;
+  height: 60%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topleft:hover ~ .home_topright {
+  width: 30%;
+  height: 60%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topleft:hover ~ .home_bottomleft {
+  width: 60%;
+  height: 40%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topleft:hover ~ .home_bottomright {
+  width: 60%;
+  height: 40%;
+  border-left: 4px solid #000 !important ;
+}
+
+/* TopRight Hover effect */
+.home_topright:hover {
+  width: 60%;
+  height: 70%;
+  border-left: 2px solid #000 !important ;
+}
+
+.home_topright:hover ~ .home_topleft {
+  width: 40%;
+  height: 60%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topright:hover ~ .home_bottomleft {
+  width: 40%;
+  height: 60%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topright:hover ~ .home_bottomright {
+  width: 60%;
+  height: 30%;
+  border: 2px solid #000 !important ;
+}
+
+/* Bottom Left Hover effect */
+.home_bottomleft:hover {
+  width: 60%;
+  height: 70%;
+}
+
+.home_bottomleft:hover ~ .home_topleft {
+  width: 30%;
+  height: 50%;
+}
+
+.home_bottomleft:hover ~ .home_topright {
+  width: 30%;
+  height: 50%;
+}
+
+.home_bottomleft:hover ~ .home_bottomright {
+  width: 40%;
+  height: 50%;
+}
+
+/* Bottom Left Hover effect */
+.home_bottomright:hover {
+  width: 70%;
+  height: 60%;
+  border: 2px solid #000 !important ;
+}
+
+.home_bottomright:hover ~ .home_topleft {
+  width: 60%;
+  height: 30%;
+  border: 2px solid #000 !important ;
+}
+
+.home_bottomright:hover ~ .home_topright {
+  width: 40%;
+  height: 40%;
+  border: 2px solid #000 !important ;
+}
+
+.home_bottomright:hover ~ .home_bottomleft {
+  width: 30%;
+  height: 70%;
+  border: 2px solid #000 !important ;
+}
+
+.home_topleft,
+.home_topright,
+.home_bottomleft,
+.home_bottomright {
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.home_topleft,
+.home_topright,
+.home_bottomleft,
+.home_bottomright {
+  border: 2px solid black; /* Default border to avoid flickering */
+}

@@ -1,0 +1,117 @@
+.title {
+  font-size: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroImage img {
+  height: 40rem;
+  margin-top: -4%;
+  margin-bottom: 4%;
+}
+
+.aboutSumup {
+  margin: -4% 5% 2%;
+}
+
+.aboutSumup-p {
+  text-align: justify;
+  padding: 1% 2% 1% 2%;
+  font-size: 1.2rem;
+}
+
+.view-more a {
+  margin-bottom: 7%;
+  background-color: black;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 1% 20%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: forma-djr-micro, sans-serif;
+  transition: background-color 0.3s;
+  font-weight: 550;
+}
+
+.view-more a:hover {
+  background-color: #f9e864;
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+  transition: all 0.3s ease;
+}
+
+.details-summary {
+  border: none;
+  cursor: pointer;
+  display: block;
+  line-height: 1.5em;
+}
+
+.details-summary-span {
+  font-size: 1.5em;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.details-summary-h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.details-p {
+  /* margin: 0% 2% 0% 2%; */
+  text-align: justify;
+  padding: 1% 2% 1% 2%;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.achivements-p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2%;
+}
+
+.insta-logo {
+  height: 4rem;
+  background: transparent;
+  margin-top: 7%;
+  margin-right: -36%;
+  padding-left: 10%;
+}
+
+.insta-about {
+  background-color: transparent;
+  justify-content: center;
+}
+
+.insta-about:hover {
+  background-color: transparent !important;
+}
+
+.social-about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+}
+
+.heroImage{
+  display: flex
+;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center
+}

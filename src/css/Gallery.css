@@ -1,0 +1,44 @@
+
+
+/* Center website */
+.main-gallery {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content-gallery {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.content-gallery img {
+  width: 100%;
+}
