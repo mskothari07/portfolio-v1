@@ -61,13 +61,13 @@ export default function Connect() {
             <img alt="Meet Kothari LinkedIn" src="linkedIn-logo.svg" />
           </a>
           <a
-            href="https://www.linkedin.com/in/kothari-meet/"
+            href="https://x.com/_meetkothari"
             className="logo-a"
           >
-            <img alt="Meet Kothari Twitter Handle" src="twitter-logo.svg" />
+            <img alt="Meet Kothari Twitter Handle" src="x-logo.png" />
           </a>
           <a
-            href="https://www.linkedin.com/in/kothari-meet/"
+            href="https://medium.com/@devenvmsk/"
             className="logo-a"
           >
             <img alt="Meet Kothari Medium" src="medium-loog.png" />

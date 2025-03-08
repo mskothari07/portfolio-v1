@@ -111,7 +111,7 @@ export default function About() {
           </details>
         </div>
         <div className="view-more">
-          <a type="Submit">View Certificate Gallery</a>
+          <a href="/gallery"type="Submit">View Certificate Gallery</a>
         </div>
       </div>
       <footer className="footer">
