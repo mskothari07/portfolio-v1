@@ -18,20 +18,29 @@ export default function Work() {
         <h1>Experience.</h1>
       </div>
       <div className="projects-container">
-        <a className="project-content">
+      <a 
+          href="https://github.com/mskothari07/booking-.com-clone"
+          className="project-content"
+        >
           <img src="booking-.com-clone.svg" />
         </a>
-        <a className="project-content">
+        <a 
+          href="https://github.com/mskothari07/ecom-using-redux-redux-saga"
+          className="project-content"
+        >
           <img src="ecom-using-redux-redux-saga.svg" />
         </a>
-        <a className="project-content">
+        <a 
+          href="https://github.com/mskothari07/noteIT_app"
+          className="project-content"
+        >
           <img src="noteIT_app.svg" />
         </a>
-        <a className="project-content">
+        <a 
+          href="https://github.com/mskothari07/Reflective_journal"
+          className="project-content"
+        >
           <img src="Reflective_journal.svg" />
-        </a>
-        <a className="project-content">
-          <img src="my-portfolio.svg" />
         </a>
       </div>
       <div className="scroll-buttons">
