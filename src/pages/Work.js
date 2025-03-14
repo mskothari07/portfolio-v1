@@ -18,7 +18,19 @@ export default function Work() {
         <h1>Experience.</h1>
       </div>
       <div className="projects-container">
-      <a 
+        <a 
+          href="https://github.com/mskothari07/Reflective_journal"
+          className="project-content"
+        >
+          <img src="Reflective_journal.svg" />
+        </a>
+        <a 
+          href="https://github.com/mskothari07/devops-project"
+          className="project-content"
+        >
+          <img src="devops.svg" />
+        </a>
+        <a 
           href="https://github.com/mskothari07/booking-.com-clone"
           className="project-content"
         >
@@ -35,12 +47,6 @@ export default function Work() {
           className="project-content"
         >
           <img src="noteIT_app.svg" />
-        </a>
-        <a 
-          href="https://github.com/mskothari07/Reflective_journal"
-          className="project-content"
-        >
-          <img src="Reflective_journal.svg" />
         </a>
       </div>
       <div className="scroll-buttons">
