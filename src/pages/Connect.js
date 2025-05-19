@@ -79,7 +79,7 @@ export default function Connect() {
         <div className="ResumeDownloader">
           <a
             className="download"
-            href="meet_kothari_resume_updated.pdf"
+            href="Meet-Kothari-Resume.pdf"
             download="Meet Kothari Resume"
           >
             Download Resume
