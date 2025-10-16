@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <div className="skills">
       <div className="skills-heading">
-        <h1>Techonlogy.</h1>
+        <h1>Technology.</h1>
         <h1>Softwares.</h1>
         <h1>Devtools.</h1>
       </div>
